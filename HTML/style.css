@@ -15,9 +15,12 @@ body{
     color:#7ED957;    
 }
 
-.titulo-foto{
+.apresentacao__foto{
     height: 500px;
     width: 400px;
+    border-radius: 10px;
+    box-shadow: #000000 15px -15px 0px -3px, #7ED957 15px -15px;
+  
 }
 
 .apresentacao{
