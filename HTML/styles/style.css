@@ -46,7 +46,7 @@ body {
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -81,12 +81,12 @@ body {
     font-size: 1.5rem;
 }
 
-.apresentacao__links__link {
+.apresentacao__links__navegacao {
     display: flex;
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -101,18 +101,16 @@ body {
     background-color: var(--cor-hover);
 }
 
-.apresentacao__foto {
-    height: 500px;
-    width: 400px;
-    border-radius: 10px;
+.apresentacao__foto {    
+    width: 50%;
+    border-radius: 0.625rem;
     box-shadow: var(--cor-primaria) 15px -15px 0px -3px, var(--cor-terciaria) 15px -15px;
 }
 
 .apresentacao__foto__about {
-    margin-bottom: 160px;
-    height: 500px;
-    width: 400px;
-    border-radius: 10px;
+    margin-bottom: 10rem;
+    width: 50%;
+    border-radius: 0.625rem;
     box-shadow: var(--cor-primaria) 15px -15px 0px -3px, var(--cor-terciaria) 15px -15px;
 }
 
