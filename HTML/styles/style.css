@@ -39,6 +39,7 @@ body {
 }
 
 .apresentacao {
+    gap: 82px;
     padding: 5% 15%;
     display: flex;
     align-items: center;
@@ -97,19 +98,19 @@ body {
     font-weight: 600;
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
 }
 
 .apresentacao__foto {    
-    width: 50%;
+    width: 35%;
     border-radius: 0.625rem;
     box-shadow: var(--cor-primaria) 15px -15px 0px -3px, var(--cor-terciaria) 15px -15px;
 }
 
 .apresentacao__foto__about {
     margin-bottom: 10rem;
-    width: 50%;
+    width: 35%;
     border-radius: 0.625rem;
     box-shadow: var(--cor-primaria) 15px -15px 0px -3px, var(--cor-terciaria) 15px -15px;
 }
@@ -122,4 +123,21 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media (max-width: 1200px){
+    
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+
+    
 }
